@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main {
+    position: relative;
+    background: grey;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    size: 80%;
+}
+
+#header {
+    position: absolute;
+    padding-left: 270px;
+    padding-block-end: 200px;
+    color: white;
+}
+
+#content {
+    position: absolute;
+    padding-left: 270px;
+    padding-block-end: 150px;
+    padding-top: 50px;
+    color: white;
+}
+
+#e1 {
+    color: aliceblue;
+    position: absolute;
+    padding-left: 270px;
+    padding-top: 140px;
+    font-size: 11px;
+
+}
+
+#e2 {
+    color: aliceblue;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 140px;
+    font-size: 11px;
+
+}
+
+#e3 {
+    color: aliceblue;
+    position: absolute;
+    padding-left: 420px;
+    padding-top: 140px;
+    font-size: 11px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background: #dcdcdc;
+    line-height: 90px;
+    padding-left: 15px;
+}
+
+.console {
+    position: fixed;
+    background: #00008B;
+    color: white;
+    bottom: 0%;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.innerConsole {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#image {
+    max-block-size: 120px;
+}
+
+
+.song1 {
+    display: flex;
+    align-content: center;
+    padding: 10px 80px 10px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.song2 {
+    display: flex;
+    align-content: center;
+    padding: 10px 80px 10px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    background: #d3d3d3;
+    margin-left: 40px;
+}
+.song3 {
+    display: flex;
+    align-content: center;
+    padding: 10px 80px 10px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.song4 {
+    display: flex;
+    align-content: center;
+    padding: 10px 80px 10px 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    background: #d3d3d3;
+    margin-left: 40px;
+}
