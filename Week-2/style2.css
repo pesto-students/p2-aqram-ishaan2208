@@ -1,0 +1,82 @@
+
+
+
+.section {
+    display: flex;
+}
+
+.app1 {
+
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    transition: all 1s ease-in 0s;
+}
+
+.section:hover .app1{
+    transform: rotate(90deg);
+    position: fixed;
+    left: 100px;
+   
+}
+ 
+.app2 {
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    transition: all 1s ease-in 0s;
+}
+
+.section:hover .app2{
+    transform: rotate(-90deg);
+    position: fixed;
+    left: 400px;
+   
+}
+ 
+.app3 {
+
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: all 1s ease-in 0s;
+}
+
+.section:hover .app3{
+    transform: rotate(-90deg);
+    position: fixed;
+    left: 100px;
+   
+}
+ 
+.app4 {
+
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    transition: all 1s ease-in 0s;
+}
+
+.section:hover .app4{
+    transform: rotate(90deg);
+    position: fixed;
+    left: 400px;
+
+    
+
+   
+}
+ 
